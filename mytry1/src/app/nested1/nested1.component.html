@@ -1,0 +1,7 @@
+<div *ngIf="shownested1; then thenEles; else elseEles;"></div>
+<ng-template #thenEles>
+  <p  style="text-align:center">nested1 components works!</p>
+</ng-template>
+<ng-template #elseEles>
+  <p> nested1 hidden </p>
+</ng-template>
